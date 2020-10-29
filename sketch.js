@@ -93,7 +93,7 @@ foodImage = loadAnimation("coin1-removebg-preview.png",
 
 function setup() {
   
-  createCanvas(600,300);
+  createCanvas(windowWidth,windowHeight);
   
   back2 = createSprite(300,100);
   back2.addAnimation("back1",back)
